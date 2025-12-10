@@ -12,7 +12,13 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
-
+//head
+strokeWeight(3)
+ellipse(200, 104, 160, 155);
+ellipse(182, 94, 10, 10); //left eye
+ellipse(216, 96, 10, 10); //right eye
+arc(200, 97, 15, 20, radians(240), radians(420)); //nose
+line(176, 150, 225, 150)
   
 
 }
