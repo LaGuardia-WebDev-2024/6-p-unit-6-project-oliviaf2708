@@ -12,13 +12,31 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Project Goes Here
   
+//neck
+strokeWeight(3)
+rect(179, 180, 40, 35)
+
 //head
 strokeWeight(3)
-ellipse(200, 104, 160, 155);
+arc(274, 124, 20, 25, radians(270), radians(450)); // right ear
+ellipse(200, 104, 160, 155); // head
 ellipse(182, 94, 10, 10); //left eye
 ellipse(216, 96, 10, 10); //right eye
-arc(200, 97, 15, 20, radians(240), radians(420)); //nose
-line(176, 150, 225, 150)
+arc(200, 97, 19, 24, radians(280), radians(480)); //nose
+line(176, 150, 225, 150); //mouth
+arc(120, 133, 20, 25, radians(54), radians(270)); // left ear
+
+//swirl
+arc(195, 55, 40, 25, radians(260), radians(500))
+ellipse(197, 63, 20, 10)
+
+//shirt
+triangle(202, 220, 173, 202, 155, 261)
+triangle(202, 220, 230, 198, 256, 256)
+
+
+
+
   
 
 }
