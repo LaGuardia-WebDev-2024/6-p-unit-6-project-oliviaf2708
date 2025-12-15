@@ -27,13 +27,23 @@ line(176, 150, 225, 150); //mouth
 arc(120, 133, 20, 25, radians(54), radians(270)); // left ear
 
 //swirl
-arc(195, 55, 40, 25, radians(260), radians(500))
-ellipse(197, 63, 20, 10)
+arc(195, 55, 40, 25, radians(260), radians(500));
+ellipse(197, 63, 20, 10);
 
 //shirt
-triangle(202, 220, 173, 202, 155, 261)
-triangle(202, 220, 230, 198, 256, 256)
+triangle(202, 220, 173, 202, 155, 261); //left coller
+triangle(202, 220, 230, 198, 256, 256); //right coller
+triangle(155, 261, 256, 256, 202, 220); //middle
+quad(171, 305, 270, 302, 257, 255, 155, 263); //bottem
 
+//arm
+rect(157, 261, 15, 50); //left
+triangle(256, 255, 266, 286, 275, 283); //sleve 
+
+
+//shorts
+rect(153, 305, 119, 33);
+line(213, 306, 213, 337);
 
 
 
