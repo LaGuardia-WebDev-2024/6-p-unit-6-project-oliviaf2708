@@ -18,15 +18,20 @@ rect(179, 180, 40, 35)
 
 //head
 strokeWeight(3)
+fill(252, 233, 197)
 arc(274, 124, 20, 25, radians(270), radians(450)); // right ear
 ellipse(200, 104, 160, 155); // head
-ellipse(182, 94, 10, 10); //left eye
-ellipse(216, 96, 10, 10); //right eye
 arc(200, 97, 19, 24, radians(280), radians(480)); //nose
 line(176, 150, 225, 150); //mouth
 arc(120, 133, 20, 25, radians(54), radians(270)); // left ear
 
+//eyes
+fill(8, 8, 8);
+ellipse(182, 94, 10, 10); //left eye
+ellipse(216, 96, 10, 10); //right eye
+
 //swirl
+fill(252, 233, 197)
 arc(195, 55, 40, 25, radians(260), radians(500));
 ellipse(197, 63, 20, 10);
 
@@ -39,11 +44,37 @@ quad(171, 305, 270, 302, 257, 255, 155, 263); //bottem
 //arm
 rect(157, 261, 15, 50); //left
 triangle(256, 255, 266, 286, 275, 283); //sleve 
-
+line(270, 285, 269, 293)
 
 //shorts
 rect(153, 305, 119, 33);
 line(213, 306, 213, 337);
+
+//legs
+rect(182, 339, 30, 30); //left
+rect(215, 339, 30, 30); //right
+
+//shoes
+rect(215, 359, 30, 10);//right sock
+ellipse(233, 376, 70, 25);//right shoe
+ellipse(202, 376, 70, 30);//left shoe
+rect(182, 359, 30, 10);//left sock
+
+//zig-zag(top)
+line(173, 295, 193, 275);
+line(193, 275, 211, 290);
+line(211, 290, 230, 275);
+line(230, 275, 246, 287);
+line(246, 287, 259, 275);
+//bottem
+line(173, 300, 193, 287);
+line(193, 287, 211, 300);
+line(211, 300, 230, 290);
+line(230, 290, 246, 297);
+line(246, 297, 263, 282);
+
+
+
 
 
 
