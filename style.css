@@ -19,7 +19,8 @@ html{
 
 #myCanvas {
   border-radius: 30px;
-  border: 15px double rgb(0, 0, 0);
+  border: 15px double rgb(141, 67, 113);
+  border-style: dotted;
 }
 
 .container{
@@ -30,6 +31,7 @@ html{
   align-items: flex-start;
   padding-bottom: 60px;
   border-radius: 30px;
+  border-style: dashed;
 }
 
 .pic{
@@ -42,6 +44,7 @@ html{
 
 h2{
   color: black;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #start{
